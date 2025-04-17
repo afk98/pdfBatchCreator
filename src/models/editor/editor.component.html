@@ -1,0 +1,12 @@
+    <div class="main-container">
+  
+      <h1 class="header">PDF Batch Creator</h1>
+    
+      <input class="selectBtn" type="file" accept="application/pdf" (change)="onFileSelected($event)"  />
+      <br><br>
+      <textarea class="textarea" [(ngModel)]="names" rows="15" placeholder="Enter one name per line..."></textarea>
+      <br><br>
+      <button class="generateBtn" mat-raised-button (click)="generateAndDownloadAll()" >Generate & Download ZIP</button>
+    
+    
+    </div>

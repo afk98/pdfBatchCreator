@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+}
+
+
+.main-container {
+    background: linear-gradient(to right, #00ffb3, #00c6ff);
+    position: relative;
+    justify-items: center;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.header {
+    background: linear-gradient(to left, rgb(255, 0, 157), purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.selectBtn {
+    position: relative;
+    justify-items: center;
+    border-radius: 20px;
+    border-width: 5px;
+    border-style: solid;
+    padding: 10px;
+
+}
+
+.textarea {
+    width: 100%;
+    right: 10px;
+    position: relative;
+    justify-items: center;
+    padding: 10px;
+
+}
+
+.generateBtn {
+    position: relative;
+    justify-items: center;
+    left: 40px;
+    padding: 10px;
+}
